@@ -44,10 +44,35 @@ h1, h2, h3{
 
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(219, 217, 217);
+    font-weight: bold;
 }
 
 #myfooter{
     background-color: aquamarine;
-    color: rgb(15, 144, 105);
 }
+
+.divider{
+    border: solid green 5px;
+}
+
+@media (min-width: 750px) and (max-width: 1010px) {
+    .row {
+      align-items: stretch; /* Ensures both columns fill the same height */
+    }
+  
+    .image-wrapper {
+      height: 100%;                
+      display: flex;
+      justify-content: center;    
+      align-items: center;        
+    }
+  
+    .myWebPic {
+      max-width: 100%;
+      height: auto;
+    }
+   
+  }
+
+
