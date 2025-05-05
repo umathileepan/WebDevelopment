@@ -1,0 +1,23 @@
+#intro{
+    background-color: rgb(177, 231, 175);
+}
+
+#intro-img{
+    border-radius: 10px;
+}
+
+h1{
+    font-family: serif;
+    font-stretch:extra-expanded;
+    font-style:italic;
+    color: rgb(22, 128, 95);
+}
+
+.roundImg{
+    border-radius: 50%;
+}
+
+.aboutMe{
+    font-family: serif;
+    font-stretch:extra-expanded;
+}
