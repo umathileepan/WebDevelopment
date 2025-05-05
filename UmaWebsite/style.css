@@ -6,7 +6,7 @@
     border-radius: 10px;
 }
 
-h1{
+h1, h2, h3{
     font-family: serif;
     font-stretch:extra-expanded;
     font-style:italic;
@@ -20,4 +20,17 @@ h1{
 .aboutMe{
     font-family: serif;
     font-stretch:extra-expanded;
+}
+
+.myWebPic{
+    border: solid red 2px;
+    border-radius: 20px;
+}
+
+.skillParah{
+    font-family: serif;
+    font-size: 20px;
+    
+    text-decoration: wavy;
+    text-align: justify;
 }
