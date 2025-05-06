@@ -1,12 +1,78 @@
-/* Don't change the existing CSS. */
-
-.box {
-  background-color: blue;
-  padding: 10px;
+#intro{
+    background-color: rgb(177, 231, 175);
 }
 
-p {
-  color: yellow;
-  margin: 0;
-  padding: 0;
+#intro-img{
+    border-radius: 10px;
 }
+
+h1, h2, h3{
+    font-family: serif;
+    font-stretch:extra-expanded;
+    font-style:italic;
+    color: rgb(22, 128, 95);
+}
+
+.roundImg{
+    border-radius: 50%;
+}
+
+.aboutMe{
+    font-family: serif;
+    font-stretch:extra-expanded;
+}
+
+.myWebPic{
+    border: solid red 2px;
+    border-radius: 20px;
+}
+
+.skillParah, p {
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: wavy;
+    text-align: justify;
+}
+
+.btnContactMe{
+    background-color: rgb(76, 204, 161);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-stretch: wider;
+    font-weight:500;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(10, 59, 28);
+    font-weight: bold;
+}
+
+#myfooter{
+    background-color: aquamarine;
+}
+
+.divider{
+    border: solid green 5px;
+}
+
+@media (min-width: 750px) and (max-width: 1010px) {
+    .row {
+      align-items: stretch; /* Ensures both columns fill the same height */
+    }
+  
+    .image-wrapper {
+      height: 100%;                
+      display: flex;
+      justify-content: center;    
+      align-items: center;        
+    }
+  
+    .myWebPic {
+      max-width: 100%;
+      height: auto;
+    }
+   
+  }
+
+

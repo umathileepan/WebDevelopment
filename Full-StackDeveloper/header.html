@@ -1,0 +1,88 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Developer | C# .NET & JavaScript Enthusiast Building Real-World Solutions </title>
+  	<!--Bootstrap code-->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Uma's CSS-->
+     <link rel="stylesheet" type="text/css" href="./style.css" /> 
+   	<!--AngularJS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<!-- navbar -->
+<header>
+<nav class="nav">
+    <div class="nav-wrapper">
+        <h1 class="brand-logo center shadow-effect"> Full-Stack Developer | C# .NET & JavaScript Enthusiast Building Real-World Solutions </h1>
+      	<a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://www.facebook.com/uma.thileepan" target="_blank" class="tooltipped btn-flooting btn-small indigo" data-tooltip="This is facebook">
+          <i class="fab fa-facebook"></i>
+          </a></li>
+          <li><a href="https://twitter.com/thileepan_uma" target="_blank" class="tooltipped btn-flooting btn-small indigo" data-tooltip="This is twitter">
+            <i class="fab fa-twitter"></i>
+          </a></li>
+          <li><a href="https://www.instagram.com/umathileepan/" target="_blank" class="tooltipped btn-flooting btn-small indigo" data-tooltip="This is instagram">
+            <i class="fab fa-instagram"></i>
+          </a></li>
+		  <li><a href="https://www.linkedin.com/in/uma-thileepan-950436200/" target="_blank" class="tooltipped btn-flooting btn-small indigo" data-tooltip="This is LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+        </ul>
+    </div>      
+  	      <div class="nav-content transparent" ng-app="myApp" ng-controller="myCtrl">
+          <ul class="tabs tabs-transparent">
+          <ul class="center hide-on-med-and-down">
+		      <li><a href="index.html" class="btn-small brand z-depth-0">Home</a></li>
+		      <li><a href="recipes.html" class="btn-small brand z-depth-0">Recipes</a></li>
+		      <li><a href="cake.html" class="btn-small brand z-depth-0">Cakes</a></li>
+		      <li><a href="kidsCake.html" class="btn-small brand z-depth-0">KidsCakes</a></li>
+              <li><a href="activity.html" class="btn-small brand z-depth-0">Activities</a></li>
+              <li><a href="nature.html" class="btn-small brand z-depth-0">Nature</a></li>
+		      <li><a href="dance.html" class="btn-small brand z-depth-0">Dance</a></li>
+		      <li><a href="netball.html" class="btn-small brand z-depth-0">Netball</a></li>
+		      <li><a href="aboutMe.html" class="btn-small brand z-depth-0">About Me</a></li>
+		     
+          </ul>
+          </ul>
+          </div>
+  		  <script>
+		var app = angular.module('myApp', []);
+		app.controller('myCtrl', function($scope, $interval) {
+  		$scope.theTime = new Date().toLocaleTimeString();
+  		$interval(function () {
+      	$scope.theTime = new Date().toLocaleTimeString();
+  		}, 1000);
+		});
+		</script>
+       <div></div>
+    </nav>
+  
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+              <li><a href="index.html" class="btn brand z-depth-0">Home</a></li>
+              <li><a href="recipes.html" class="btn brand z-depth-0">Recipes</a></li>
+		      <li><a href="cake.html" class="btn brand z-depth-0">Cakes</a></li>
+		      <li><a href="kidsCake.html" class="btn brand z-depth-0">KidsCakes</a></li>
+              <li><a href="activity.html" class="btn brand z-depth-0">Activities</a></li>
+		      <li><a href="nature.html" class="btn brand z-depth-0">Nature</a></li>
+		      <li><a href="dance.html" class="btn brand z-depth-0">Dance</a></li>
+		      <li><a href="netball.html" class="btn brand z-depth-0">Netball</a></li>
+		      <li><a href="aboutMe.html" class="btn brand z-depth-0">About Me</a></li>
+		      
+        </ul>
+  </header>
+  
