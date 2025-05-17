@@ -19,7 +19,7 @@ if(imgPlayer1 > imgPlayer2){
 }else if(imgPlayer2 > imgPlayer1){
     document.querySelector("h1").innerHTML = "Player 2 Wins";
 }else{
-    document.querySelector("h1").innerHTML = "Refresh Me";
+    document.querySelector("h1").innerHTML = "Draw";
 }
 
 
